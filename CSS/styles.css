@@ -1,5 +1,5 @@
 .jumbotron h1 {
-    color: green;
+    color: darkgreen;
 }
 
 .jumbotron h3 {
@@ -14,11 +14,26 @@
     
 }
 
+body {
+    font-family: "Open Sans", sans-serif; }
+  
+  h1, h2, h3 {
+    font-family: "Signika", cursive; }
 
-
-h1 {
-    font-family: Signika ;
+h2 {
+    color: darkgreen;
 }
+
+h3, h5 {
+    color: olive;
+}
+
+
+
+    .tab-content {
+        border: 1px solid khaki;
+        border-top: none;
+        padding: 10px; }
 
 
 
@@ -59,5 +74,17 @@ h1 {
     height: 100%;
     width: 100%;
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); }
+  
+  .carousel {
+    border: solid darkkhaki; }
+  
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; }
 
 
