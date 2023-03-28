@@ -54,4 +54,14 @@ body {
     color: khaki;
 }
 
+.homeCard {
+    border: solid olive;
+}
+
+.productCard {
+    border: solid olive;
+    height: 100%;
+    width: 100%;
+}
+
 
